@@ -23,3 +23,33 @@
 
 //A vowel count function
 
+// function getCount(str) {
+//   let vowels = 'aeiouAEIOU'
+//   let vowelCount = 0
+
+//   for (let char of str) {
+//     if (vowels.includes(char)) {
+//       vowelCount += 1
+//     }
+//   }
+
+//   return vowelCount
+// }
+
+// console.log(getCount("babushka"))
+
+//Smallest Integer in the Array Function
+
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+    args.sort(function(a, b) {
+      return a - b
+    })
+
+    return args[0]
+  }
+}
+
+const finder = new SmallestIntegerFinder()
+
+console.log(finder.findSmallestInt([1, 3, 6, 3]))
