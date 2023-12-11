@@ -73,14 +73,36 @@
 
 //Clock Function
 
-function past(h, m, s) {
-  if (!(0 <= h <= 23) || !(0 <= m <= 59) || !(0 <= s <= 59)) {
-    return "error"
-  }
+// function past(h, m, s) {
+//   if (!(0 <= h <= 23) || !(0 <= m <= 59) || !(0 <= s <= 59)) {
+//     return "error"
+//   }
 
-  let time = (h * 3600000) + (m * 60000) + (s * 1000)
-  return time
+//   let time = (h * 3600000) + (m * 60000) + (s * 1000)
+//   return time
+// }
+
+
+// console.log(past(0, 1, 1))
+
+//Pangram Function
+
+// function isPangram(string){
+//   let lowerString = string.toLowerCase()
+
+//   for (let char of 'abcdefghijklmnopqrstuvwxyz') {
+//     if (lowerString.indexOf(char) === -1) {
+//       return false
+//     }
+//   }
+
+//   return true
+// }
+
+// console.log(isPangram("Some random string"))
+
+//Square Every Digit Function 
+
+function squareDigits(num) {
+  return 0
 }
-
-
-console.log(past(0, 1, 1))
