@@ -104,5 +104,13 @@
 //Square Every Digit Function 
 
 function squareDigits(num) {
-  return 0
+  let squaredArr = String(num).split("").map((digit) => {
+    return Number(digit) * Number(digit)
+  })
+
+  let concatNum = squaredArr.join("")
+
+  return Number(concatNum)
 }
+
+console.log(squareDigits(3212))
