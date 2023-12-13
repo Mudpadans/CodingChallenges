@@ -103,14 +103,49 @@
 
 //Square Every Digit Function 
 
-function squareDigits(num) {
-  let squaredArr = String(num).split("").map((digit) => {
-    return Number(digit) * Number(digit)
-  })
+// function squareDigits(num) {
+//   let squaredArr = String(num).split("").map((digit) => {
+//     return Number(digit) * Number(digit)
+//   })
 
-  let concatNum = squaredArr.join("")
+//   let concatNum = squaredArr.join("")
 
-  return Number(concatNum)
-}
+//   return Number(concatNum)
+// }
 
-console.log(squareDigits(3212))
+// console.log(squareDigits(3212))
+
+//Find the Odd Integer Function 
+
+// function findOdd(A) {
+//   let count = {};
+
+//   for (i = 0; i < A.length; i++) {
+//     let num = A[i];
+//     count[num] = (count[num] || 0) + 1;
+//   }
+
+//   for (let num in count) {
+//     if (count[num] % 2 !== 0) {
+//       return parseInt(num)
+//     }
+//   }
+// }
+
+// console.log(findOdd([1, 20, 1, 2, 2]))
+
+//Printer Error Function 
+
+// function printerError(s) {
+//    let errorCount = 0;
+
+//    for (let i = 0; i < s.length; i++) {
+//      if (s[i] < 'a' || s[i] > 'm') {
+//       errorCount++;
+//      }
+//    }
+
+//    return errorCount + '/' + s.length
+// }
+
+// console.log(printerError("aaabbbbhaijjjm"))
