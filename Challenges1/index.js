@@ -149,3 +149,17 @@
 // }
 
 // console.log(printerError("aaabbbbhaijjjm"))
+
+//Two to One Function
+
+// function longest(s1, s2) {
+//   let combined = (s1 + s2).split('')
+
+//   let filteredAndSorted = combined.filter(char => /^[A-Za-z]+$/.test(char)).sort()
+
+//   let uniqueChars = [...new Set(filteredAndSorted)].join('')
+
+//   return uniqueChars
+// }
+
+//
