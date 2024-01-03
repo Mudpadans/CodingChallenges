@@ -162,4 +162,58 @@
 //   return uniqueChars
 // }
 
-//
+//Average Function
+
+// function findAverage(array) {
+//     let average = 0;
+
+//     if (array.length === 0) {
+//         return average;
+//     }
+
+//     for (let i = 0; i < array.length; i++) {
+//         average += array[i]
+//     }
+
+//     average = average / array.length
+
+//     return average
+// }
+
+//Odd or Even Function
+
+// function oddOrEven(array) {
+//     let sum = 0;
+//     let result = "";
+
+//     for (let i = 0; i < array.length; i++) {
+//         sum += array[i]
+//     }
+
+//     if (sum % 2 === 0) {
+//         let result = "Even"
+//     } else if (sum % 2 !== 0) {
+//         let result = "Odd"
+//     }
+
+//     return result;
+// }
+
+//Function of Love 
+
+// function lovefunc(flower1, flower2){
+//   let match = false;
+
+//   if ((flower1 % 2 === 0  && flower2 % 2 !== 0) || (flower1 % 2 !== 0 && flower2 % 2 == 0)) {
+//     match = true;
+//   } 
+
+//   return match
+// }
+
+
+
+
+String.prototype.toJadenCase = function () {
+  
+};
