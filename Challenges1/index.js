@@ -350,4 +350,19 @@
 
 //   console.log(liters(7.9))
 
-//
+//Count Smileys Function
+
+// function countSmileys(arr) {
+//   let validSmileys = [":)", ":D", ";)", ";D", ":-)", ":-D", ";-)", ";-D", ":~)", ":~D", ";~)", ";~D"]
+//   let smileyCount = 0
+
+//   for (let i = 0; i < arr.length; i++) {
+//     if (validSmileys.includes(arr[i])) {
+//       smileyCount += 1;
+//     }
+//   }
+
+//   return smileyCount
+// }
+
+// console.log(countSmileys([';]', ':[', ';*', ':$', ';-D']))
