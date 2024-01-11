@@ -212,8 +212,142 @@
 // }
 
 
+// Jaden Smith function
 
+// function jadenSmith(str) {
+//   let words = str.split(' ');
+//   let result = [];
 
-String.prototype.toJadenCase = function () {
-  
-};
+//   for (let word of words) {
+//     result.push(word.charAt(0).toUpperCase() + word.slice(1))
+//   }
+
+//   return result.join(' ');
+// };
+
+// console.log(jadenSmith("you can loop through words in a string"))
+
+//Needle in a Haystack Function 
+
+// function findNeedle(haystack) {
+//   for (let i = 0; i < haystack.length; i++) {
+//     if (haystack[i] === "needle") {
+//         return `found the needle at position ${i}`
+//     } 
+// }
+//     return "no needle found"
+    
+
+// }
+
+// console.log(findNeedle(["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"]))
+
+//Reverse Sequence function 
+
+// const reverseSeq = n => {
+//     let reversed = [];
+
+//     if (n > 0) {
+//         for (let i = n; i > 0; i--) {
+//             reversed.push(i)
+//         }
+//     }
+
+//     return reversed
+// };
+
+// console.log(reverseSeq(5))
+
+//Sheep Count function
+
+// function countSheeps(sheep) {
+//   let count = 0;
+
+//   for (i = 0; i < sheep.length; i++) {
+//     if (sheep[i] === true) {
+//         count += 1;
+//     }
+//   }
+
+//   return count;
+// }
+
+// console.log(countSheeps([true,  true,  true,  false,
+//     true,  true,  true,  true ,
+//     true,  false, true,  false,
+//     true,  false, false, true ,
+//     true,  true,  true,  true ,
+//     false, false, true,  true]))
+
+//Count Positives and Sum Negatives Function
+
+// function countPositivesSumNegatives(input) {
+//   if (!input || input.length === 0) {
+//     return []
+//   }
+
+//   let positiveCount = 0;
+//   let negativeSum = 0
+
+//   for (let i = 0; i < input.length; i++) {
+//     if (input[i] > 0) {
+//         positiveCount += 1
+//     } else if (input[i] < 0) {
+//         negativeSum += input[i]
+//     } 
+//   }
+
+//   let result = [positiveCount, negativeSum]
+//   return result
+// }
+
+// console.log(countPositivesSumNegatives([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15]))
+
+//Reverse digits function
+
+// function digitize(n) {
+//   let nArray = String(n).split('')
+
+//   return nArray.reverse().map(num => parseInt(num))
+// }
+
+// console.log(digitize(76717))
+
+//List Filter Function
+
+// function filter_list(l) {
+//   let filteredList = l.filter(item => typeof item !== 'string');
+//   return filteredList;
+// }
+
+// console.log(filter_list([1,2,'a','b']))
+
+//Fake Binary Function 
+
+// function fakeBin(x){
+//     let xArray = x.split('')
+
+//     for (let i = 0; i < xArray.length; i++) {
+//         if (xArray[i] < 5) {
+//             xArray[i] = '0'
+//         } else if (xArray[i] >= 5) {
+//             xArray[i] = '1'
+//         }
+//     } 
+
+//     return xArray.join('')
+// }
+
+// console.log(fakeBin("1627638"))
+
+//Hydration Function
+
+// function liters(time) {
+//     let liters = Math.floor(time * 0.5)
+
+//     return liters
+//   }
+
+//   console.log(liters(7.9))
+
+//
